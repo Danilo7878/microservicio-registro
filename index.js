@@ -14,7 +14,7 @@ app.use(express.json())
 
 app.use(cors())
 
-app.set('port', 3000);
+app.set('port', 80);
 //app.set('port', 3000);
 
 app.get('/', (req,res) => res.send('Petroll - SignUp'));
